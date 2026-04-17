@@ -57,8 +57,8 @@ The prompt enforces:
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/sleep-dashboard.git
-cd sleep-dashboard
+git clone https://github.com/Theozuz/lean-sleep-dashboard.git
+cd lean-sleep-dashboard
 
 # Install dependencies
 pip install -r requirements.txt
@@ -98,6 +98,8 @@ sleep-dashboard/
 ├── requirements.txt          # Python dependencies
 ├── README.md                 # This file
 ├── .gitignore                # Ignore rules (excludes secrets.toml)
+├── assets/
+│   └── night-sky.jpg         # Background photograph (Unsplash, royalty-free)
 └── .streamlit/
     └── config.toml           # Dark theme configuration
 ```
@@ -106,7 +108,7 @@ sleep-dashboard/
 
 - **Framework:** Streamlit
 - **Language:** Python 3
-- **LLM:** Anthropic Claude (`claude-3-5-haiku-latest`)
+- **LLM:** Anthropic Claude (`claude-haiku-4-5-20251001`)
 - **Hosting:** Streamlit Community Cloud
 
 ## Evaluation Checklist
