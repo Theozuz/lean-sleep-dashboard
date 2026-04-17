@@ -6,7 +6,7 @@ The user answers three quick questions about their sleep. The app calculates a s
 
 ## Live Demo
 
-> **Deployed URL:** _add link after deployment_
+> **Deployed URL:** <https://lean-sleep-dashboard-9xhsxt94v4wmbjkf8rhapppp.streamlit.app/>
 
 ## Features
 
